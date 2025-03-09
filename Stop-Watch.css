@@ -1,0 +1,47 @@
+body{
+    font-family: Orbitron;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+    background-color: rgb(red, green, blue);
+
+
+}
+.container{
+    width: 100vh;
+    height:100vh;
+    background-color:black;
+    margin: 100px auto;
+}
+.numbers{
+    text-align: center;
+    display: flex;
+    font-size: 70px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+.clicks{
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+}
+button{
+    padding: 25px;
+    margin: auto 10px;
+    border-radius: 5px;
+    font-family: Orbitron;
+    border: 0;
+    transition:background-color 0.5s;
+    color:black;
+    font-size: 25px;
+}
+button:hover{
+    background-color:purple;
+}
+
+#second1 , #second2 , #minute1 , #minute2 , #hour1 , #hour2{
+    transition:color 0.7s;
+}
